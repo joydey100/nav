@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous"/>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title> Nav | Usable Nav </title>
+  </head>
+  <body>
+
+    <!-- Back to Top -->
+    <div class="scrollTop" onclick ="scrollToTop();">   </div>
+    <!-- end of Back to Top -->
+
+    <!-- Start of  Header Section -->
+
+    <header>
+
+
+      <!-- Start of Main Menu -->
+
+      <nav>
+        <div class="logo">
+          <h2><a href="#"> Creative </a></h2>
+        </div>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="toggle" onclick="openNav();">
+          <span> <i class="fas fa-bars"></i> </span>
+        </div>
+      </nav>
+
+      <!-- End  of Main Menu -->
+
+
+
+
+      <!-- Start of Navigation Menu -->
+
+      <div id="navigation" class="navigation">
+        <div class="close-btn">
+          <span class="closebtn" onclick="closeNav();">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+        <ul>
+          <li>
+            <a href="#" onclick="closeNav();">
+              <span class="icon">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </span>
+              <span class="title"> Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="closeNav();">
+              <span class="icon">
+                <i class="fa fa-user" aria-hidden="true"></i>
+              </span>
+              <span class="title"> About</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="closeNav();">
+              <span class="icon"> <i class="far fa-comments"></i> </span>
+              <span class="title"> Blog</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="closeNav();">
+              <span class="icon">
+                <i class="fa fa-paper-plane" aria-hidden="true"></i>
+              </span>
+              <span class="title"> Service</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="closeNav();">
+              <span class="icon"> <i class="far fa-images"></i> </span>
+              <span class="title"> Gallery</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" onclick="closeNav();">
+              <span class="icon"><i class="fas fa-phone-alt"></i> </span>
+              <span class="title"> Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- End of Naviagation Menu -->
+
+
+    </header>
+    <!-- End of Header Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Main JS File -->
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
